@@ -1,0 +1,15 @@
+/* css/Home.css */
+.home-tela {
+  background: linear-gradient(160deg, #ffd6e0 0%, #ffe8a3 40%, #c8f7c5 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px;
+}
+.home-titulo {
+  font-family: Georgia, serif;
+  font-size: 36px;
+  margin-bottom: 32px;
+  color: #161616;
+}

@@ -1,0 +1,19 @@
+/* css/BotaoEmergencia.css */
+
+.botao-emergencia {
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 14px;
+  padding: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  color: #cc0000;
+  text-align: center;
+  box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.10);
+  margin-top: 12px;
+}
+
+.botao-emergencia:hover {
+  background: #fff0f0;
+}

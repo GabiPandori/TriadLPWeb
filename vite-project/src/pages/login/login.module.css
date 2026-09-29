@@ -1,0 +1,47 @@
+/* pages/Login.css */
+
+.login-tela {
+  background: linear-gradient(160deg, #ffd6e0 0%, #ffe8a3 40%, #c8f7c5 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+}
+
+.login-titulo {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.login-icone {
+  font-size: 90px;
+  margin-bottom: 32px;
+}
+
+.login-botao {
+  background: white;
+  border: none;
+  border-radius: 14px;
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.10);
+  margin-top: 8px;
+}
+
+.login-botao:hover {
+  background: #f0f0f0;
+}
+
+.login-link-cadastro {
+  background: transparent;
+  border: none;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #333;
+}

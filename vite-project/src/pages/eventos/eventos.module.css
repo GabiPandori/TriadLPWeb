@@ -1,0 +1,51 @@
+.eventos-tela {
+  background: linear-gradient(160deg, #d070e0 0%, #e0a0f0 100%);
+  min-height: 100vh;
+  padding: 24px;
+}
+.eventos-voltar {
+  background: rgba(255,255,255,0.25);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  color: white;
+}
+.eventos-titulo {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.evento-card {
+  background: white;
+  border-radius: 20px;
+  padding: 14px 22px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  box-shadow: 2px 3px 0px rgba(0,0,0,0.10);
+}
+.evento-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+.evento-seta {
+  font-size: 20px;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.evento-seta.aberto {
+  transform: rotate(180deg);
+}
+.evento-descricao {
+  margin-top: 12px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
